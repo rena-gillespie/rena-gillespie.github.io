@@ -18,37 +18,61 @@ body {
   font-size: 15px;
   color: #54219b;
   font-family: Helvetica;
+  padding: 5px;
 }
 
 .class-style-2 {
     font-size: 20px;
     color: #5a0887;
-    font-family: Franklin Gothic Medium;
+    font-family: 'Times New Roman';
+    padding: 5px;
+}
+
+#red-color {
+ color: #FF0000;
+ padding: 5px;
+ font-size: 15px;
+ font-family: 'Arial Narrow Bold';
+}
+
+.header-text {
+  font-size: 25px;
+  color: #54219b;
+  font-family: Helvetica;
+  padding: 5px;
+}
+
+.thin-blue-border {
+    border-color: #4d1fab;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
 }
 </style>
 
 <body>
-<h2>The Best Practices Associated with using Classes vs. Ids</h2>
+<h2 class="header-text">The Best Practices Associated with using Classes vs. Ids</h2>
   <p class="class-style-2">When wanting to customise a blog, theres many ways to assign colour, size and/or font type</p>
   <p class="class-style-2">and there's many ways to do that, two of them is using "ID" and "class".</p>
 
-<h1>Class</h1>
+<h1 class="header-text">Class</h1>
  <div class="class-style-1">Using "Class" can assign styles multiple times to elements for example, texts.</div>
  <div class="class-style-2">This is useful if your blog has colour schemes to use on many elements.</div>
  <div class="class-style-1">You can use this by typing ".insert-name" and add a class="insert-name" to your elememnt</div>
- 
-<img src=""  >
-<img src=""    >
 
+ <img class="thin-blue-border" src="https://cdn.discordapp.com/attachments/1359640688093954268/1386200656565506099/Screenshot_2025-06-22_162546.png?ex=6858d776&is=685785f6&hm=dc3abe0e843eba7b86c0efc174310db9cf87ad67b8f0a37351bc04cb8481a1de&" alt="use of class example 2">
 
+</body>
 
+<body>
+<h1 class="header-text">ID</h1>
+ <div class="class-style-1">Assigning IDs is used for one element</div>
+ <div class="class-style-1">This comes in handy when you want to give unique atribute to something</div>
+ <p id="red-color">Maybe give a sentence a colour that deviates from the colour scheme!</p>
 
-<h1>ID</h1>
- <div>Assigning IDs is used for one element</div>
- <div>This comes in handy when you want to give unique atribute to something</div>
- <div>Maybe give a sentence a colour that deviates from the colour scheme!</div>
+ <img class="thin-blue-border" src="https://cdn.discordapp.com/attachments/1359640688093954268/1386206931798065152/Screenshot_2025-06-22_165048.png?ex=6858dd4f&is=68578bcf&hm=80d4c9e85b1abe142c52960b17afd2d836696ecf0268914505504e28975289bb&" alt="id examle">
 
-
+</body>
 
 
 
