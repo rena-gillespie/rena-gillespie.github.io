@@ -1,0 +1,43 @@
+body {
+  background: #c2e9fe;
+  background: linear-gradient(to right, #fcf0b8, #6480ff);
+}
+
+
+.class-style-1 {
+  font-size: 15px;
+  color: #54219b;
+  font-family: Helvetica;
+  padding: 5px;
+}
+
+.class-style-2 {
+    font-size: 20px;
+    color: #5a0887;
+    font-family: 'Times New Roman';
+    padding: 5px;
+}
+
+#red-color {
+ color: #FF0000;
+ padding: 5px;
+ font-size: 15px;
+ font-family: 'Arial Narrow Bold';
+}
+
+.header-text {
+  font-size: 25px;
+  color: #54219b;
+  font-family: Helvetica;
+  padding: 5px;
+}
+
+
+.thin-blue-border {
+    border-color: #4d1fab;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
